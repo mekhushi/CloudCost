@@ -1,0 +1,23 @@
+Timestamp,CloudProvider,AccountID,Project,Env,Service,Region,ResourceID,UsageHours,CostUSD,CPU Utilization,GPU Utilization,StorageGB,NetworkTrafficGB
+2025-11-01 00:00:00,AWS,acc-1,AI-Platform,prod,EC2,us-east-1,i-001,6,14.2,45,0,50,1.2
+2025-11-01 01:00:00,AWS,acc-1,AI-Platform,prod,EBS,us-east-1,vol-101,0,3.5,2,0,200,0.1
+2025-11-01 02:00:00,GCP,acc-2,ML-Training,dev,ComputeEngine,us-central1,vm-201,4,9.8,20,60,30,2.9
+2025-11-01 03:00:00,GCP,acc-2,ML-Training,dev,Storage,us-central1,bucket-11,0,1.2,0,0,500,0.0
+2025-11-01 04:00:00,AWS,acc-1,Analytics,prod,Redshift,us-west-2,rs-889,2,22.5,70,0,0,10.4
+2025-11-01 05:00:00,AWS,acc-1,Analytics,prod,S3,us-west-2,bucket-77,0,1.9,0,0,900,0.0
+2025-11-02 00:00:00,AWS,acc-1,AI-Platform,prod,EC2,us-east-1,i-002,7,15.6,48,0,55,1.4
+2025-11-02 01:00:00,GCP,acc-2,ML-Training,dev,GPU-VM,us-central1,vm-202,3,18.8,10,85,25,4.1
+2025-11-02 02:00:00,GCP,acc-2,ML-Training,dev,ComputeEngine,us-central1,vm-203,2,5.6,22,35,12,1.9
+2025-11-02 03:00:00,AWS,acc-1,Analytics,prod,S3,us-west-2,bucket-77,0,2.0,0,0,930,0.0
+2025-11-03 00:00:00,AWS,acc-1,AI-Platform,prod,GPU-EC2,us-east-1,i-005,8,27.5,12,90,40,5.0
+2025-11-03 01:00:00,GCP,acc-2,ML-Training,prod,GPU-VM,us-central1,vm-305,4,32.8,15,75,30,4.8
+2025-11-03 02:00:00,GCP,acc-2,ML-Training,dev,ComputeEngine,us-central1,vm-302,2,4.4,25,12,20,1.1
+2025-11-03 03:00:00,AWS,acc-1,Analytics,prod,Redshift,us-west-2,rs-889,2,23.1,65,0,0,12.0
+2025-11-04 00:00:00,AWS,acc-1,AI-Platform,prod,EC2,us-east-1,i-003,6,13.9,40,0,48,1.0
+2025-11-04 01:00:00,GCP,acc-2,ML-Training,dev,GPU-VM,us-central1,vm-204,3,19.5,14,88,27,3.6
+2025-11-04 02:00:00,GCP,acc-2,ML-Training,dev,ComputeEngine,us-central1,vm-207,2,6.1,18,10,18,1.7
+2025-11-04 03:00:00,AWS,acc-1,Analytics,prod,S3,us-west-2,bucket-77,0,2.1,0,0,960,0.0
+2025-11-05 00:00:00,AWS,acc-1,AI-Platform,prod,GPU-EC2,us-east-1,i-010,9,60.0,15,92,50,8.0
+2025-11-05 01:00:00,GCP,acc-2,ML-Training,prod,GPU-VM,us-central1,vm-309,4,70.2,18,85,35,7.1
+2025-11-05 02:00:00,GCP,acc-2,ML-Training,dev,ComputeEngine,us-central1,vm-402,2,7.2,20,15,22,1.4
+2025-11-05 03:00:00,AWS,acc-1,Analytics,prod,Redshift,us-west-2,rs-889,2,22.8,67,0,0,15.9
